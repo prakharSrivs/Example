@@ -1,0 +1,194 @@
+body{
+    background: #EDECED;
+}
+.nav-link{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-right:30px;
+    position:relative;
+}
+.nav-link:hover{
+    color:white;
+}
+.nav-link:after {
+  display:block;
+  content: '';
+  border-bottom: solid 1px #a8e3ec;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+.nav-link:hover:after {
+    transform: scaleX(1);
+}
+.nav-link:after{  transform-origin:  0% 50%; }
+.navbar-brand-img{
+    margin-top: 4px;
+}
+.navbar-brand{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+.navbar-new{
+    background: rgba(0, 0, 0, 0.64);
+    height: 100px;
+}
+.container-fluid{
+    margin-left:140px;
+    margin-right:140px;
+}
+.background-img{
+    background-image: url("/Rectangle\ 12.png");
+    min-height:600px;
+    background-size: cover;
+}
+.page-header{
+    margin-left:140px;
+    margin-right:140px;
+    font-family: 'Cabin';
+    font-size: 52px;
+    line-height: 63px;
+    color: #041626;
+    margin-top:150px;
+}
+.heading-con{
+    margin-top:22px;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 163.15%;
+    color: #3F4245;
+}
+.project-cards{
+    margin-left:140px;
+    margin-right:140px;
+   margin-top:-180px;
+   display:flex;
+   flex-wrap:wrap;
+   justify-content: space-between;
+}
+.project-card{
+    width: 367px;
+    height:500px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top:80px;
+    box-shadow: 1px 1px 5px  rgb(186, 183, 183);
+    transition: all 0.2s ease 0s;
+}
+.project-card:hover{
+    position:relative;
+    transform: translateY(-3px);
+}
+.project-image-1{
+    background: url(pexels-pixabay-2156.jpg);
+    height:200px;
+}
+.project-image-2{
+    background: url("/Image.png");
+    height:200px;
+}
+.project-image-3{
+    background: url("/solid-fuel.png");
+    height:200px;
+}
+.project-image-4{
+    background: url("/rover.png");
+    height:200px;
+}
+.project-image-5{
+    background: url("/weather.png");
+    height:200px;
+}
+.project-image-6{
+    background: url("/air.png");
+    height:200px;
+}
+
+.project-content{
+    padding:16px;
+}
+.project-heading{
+    text-transform: uppercase;
+    margin-top: 29px;
+    margin-bottom: 32px;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.project-description{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140.6%;
+    color: #6D7D8B;
+}
+.projects-footer{
+    margin-top:172px;
+    min-width: 100%;
+    height: 462px;
+    left: -1px;
+    top: 1810px;
+    background: #21283B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+.footer-logo{
+    background-image: url("/sangananprayog.png");
+    height:94px;
+    width:120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-link{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left:20px;
+}
+
+.project-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: large;
+    margin-left: 30px;
+}
+.projects-socials{
+    margin-top:40px;
+    display: flex;
+}
+.footer-copyrights{
+    margin-top: 90px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #6D7D8B;
+}
