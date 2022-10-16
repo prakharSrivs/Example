@@ -76,8 +76,9 @@ nav{
     font-family: 'Cabin';
     font-size: 75px;
     line-height: 63px;
-    color: #041626;
+    color: #14202afa;
     margin-top:150px;
+    text-shadow: rgba(255, 255, 255, 0.53) 1px 0 10px;
 }
 .page-header{
     margin-left:140px;
@@ -233,4 +234,48 @@ nav{
     display: flex;
     align-items: center;
     color: #6D7D8B;
+}
+
+
+@media (max-width:400px){
+    .container-fluid{
+        margin:0;
+        padding: 0;
+    }
+    .page-header>h1{
+         text-align: center;
+    }
+    .page-header{
+        margin:0;
+        margin-top:10%;
+    }
+    .heading-con{
+        color: #3b4750;
+        text-align:center;
+        display: none;
+    }
+    .project-cards{
+        margin-left:0;
+        margin-right:0;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar-brand{
+        margin-left: 10px;
+    }
+    .navbar-collapse{
+        margin: 0;
+        margin-top: 8px;
+        width: 100vw;
+        padding-left: 10px;
+        background: rgba(0, 0, 0, 0.719);
+    }
+    .nav-link{
+        text-align: center;
+    }
+    .project-card{
+        height: 450px;
+        width: 315px;
+    }
+
 }
